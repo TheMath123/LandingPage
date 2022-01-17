@@ -1,5 +1,5 @@
 //Components
-import { Brandtrust } from "./components/brandtrust";
+import { Brands } from "./components/brands";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 
@@ -12,7 +12,7 @@ export default function App() {
     <div className={styles.app}>
       <Header />
       <Hero />
-      <Brandtrust />
+      <Brands />
     </div>
   );
 }
