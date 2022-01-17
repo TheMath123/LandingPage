@@ -1,14 +1,29 @@
 //Styles
-import styles from "brandtrust.module.scss";
+import styles from "../styles/brandtrust.module.scss";
 
 //Component Brand Trust
 export function Brandtrust() {
   return (
-    <main>
+    <main className={styles.main}>
       <h1>Marcas que confiam no nosso trabalho</h1>
       <div className="brands">
         <a href="#">
-          <img src="" alt="" />
+          <img src="brands/ahlstrommunksjo.svg" alt="ahlstrommunksjo" />
+        </a>
+        <a href="#">
+          <img src="brands/amstedmaxion.svg" alt="amstedmaxion" />
+        </a>
+        <a href="#">
+          <img src="brands/corteva.svg" alt="corteva" />
+        </a>
+        <a href="#">
+          <img src="brands/embraer.svg" alt="embraer" />
+        </a>
+        <a href="#">
+          <img src="brands/master.svg" alt="master" />
+        </a>
+        <a href="#">
+          <img src="brands/yara.svg" alt="yara" />
         </a>
       </div>
     </main>
