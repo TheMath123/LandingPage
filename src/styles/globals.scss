@@ -4,6 +4,52 @@
   box-sizing: border-box;
 }
 
+:root{
+  --white: #FFFFFF;
+  --light-gray: #F4F4F4;
+  --blue: #2356CB;
+  --dark-blue: #1E3B8B;
+  --deep-blue: #10204B;
+  --black: #030303;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+
+  @media screen and (max-width: 1000px){
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 800px){
+    font-size: 0.8rem;
+  }
+
+  @media screen and (max-width: 600px){
+    font-size: 0.75rem;
+  }
+}
+
+button {
+  padding: 0.5rem 1rem;
   
+  border: 0;
+  background: var(--blue);
+  border-radius: .93rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125rem;
+
+  color: var(--white);
+  cursor: pointer;
+
+  transition: filter .2s;
+
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.25));
+
+  &:hover{
+    filter: brightness(.9);
+  }
 }

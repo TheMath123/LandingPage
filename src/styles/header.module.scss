@@ -1,0 +1,68 @@
+header {
+  background: var(--light-gray);
+  padding: 1rem 3rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  @media screen and (max-width: 968px) {
+    display: none;
+  }
+
+  a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    color: var(--dark-blue);
+
+    text-decoration: none;
+
+    &:hover {
+      color: var(--deep-blue)
+    }
+  }
+}
+
+.divMenu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+
+  cursor: pointer;
+
+  transition: filter .2s;
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  @media screen and (max-width: 968px) {
+    display: flex;
+  }
+
+}
+
+.menuBar {
+  display: flex;
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+  background: var(--blue);
+}
+
+@media screen and (max-width: 700px) {
+  button {
+    display: none;
+  }
+}

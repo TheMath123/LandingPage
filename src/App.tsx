@@ -1,9 +1,16 @@
-import styles from "./styles/pages/app.module.scss";
+//Components
+import { Header } from "./components/header";
+import { Hero } from "./components/hero";
 
+//Styles
+import "./styles/app.scss";
+
+//Page App
 export default function App() {
   return (
-    <div className={styles.app}>
-      <h1>Hello World!</h1>
+    <div className="app">
+      <Header />
+      <Hero />
     </div>
   );
 }
