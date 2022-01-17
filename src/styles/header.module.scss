@@ -13,7 +13,7 @@ header {
 nav {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
 
   @media screen and (max-width: 968px) {
     display: none;
@@ -62,7 +62,8 @@ nav {
 }
 
 @media screen and (max-width: 700px) {
-  button {
+  .btnDemo {
     display: none;
   }
 }
+
