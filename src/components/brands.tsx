@@ -22,6 +22,12 @@ export function Brands() {
           <a href="embraer">
             <img src="brands/imgBrand4.svg" alt="embraer" />
           </a>
+          <a href="master">
+            <img src="brands/imgBrand5.svg" alt="master" />
+          </a>
+          <a href="yara">
+            <img src="brands/imgBrand6.svg" alt="yara" />
+          </a>
         </div>
       </main>
     </div>

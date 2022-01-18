@@ -59,7 +59,8 @@ main {
   align-items: flex-end;
 
   img {
-    height: 18.75rem;
+    width: 100%;
+    overflow: hidden;
 
     @media screen and (max-width: 920px) {
       display: none;

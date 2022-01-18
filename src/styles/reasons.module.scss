@@ -30,16 +30,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: absolute;
 
     padding: 1rem;
     border: 2px solid var(--blue);
     border-radius: 15px;
 
     max-width: 722px;
-    @media screen and (max-width: 765px){
-      position: relative;
-    }
+    min-height: 170px;
 
     h1 {
       padding: 0 1rem;
@@ -63,21 +60,35 @@
         color: var(--dark-blue);
       }
     }
+
   }
 
   .r1 {
-    left: 10%;
+    position: absolute;
   }
 
-  .r2 {
-    left: 40%;
+  .r2{
+    position: absolute;
+    top: 202px;
+    left: 10vw;
   }
 
   .r3 {
-    right: 40%;
+    position: absolute;
+    top: 404px;
+    left: 30vw;
   }
 
   .r4 {
-    right: 10%;
+    position: absolute;
+    top: 606px;
+    left: 50vw;
   }
+
+  @media screen and (max-width: 920px) {
+    .r1, .r2, .r3, .r4 {
+      position: static;
+    }
+  }
+  
 }
