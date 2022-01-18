@@ -9,7 +9,7 @@ export function Reasons() {
         Por que escolheram a <strong>Tractian</strong>?
       </h1>
       <div className={styles.reasons}>
-        <div className={styles.reason}>
+        <div className={`${styles.reason} ${styles.r1}`}>
           <h1>1</h1>
           <div>
             <span>Manutenção Preditiva</span>
@@ -20,7 +20,7 @@ export function Reasons() {
           </div>
         </div>
 
-        <div className={styles.reason}>
+        <div className={`${styles.reason} ${styles.r2}`}>
           <h1>2</h1>
           <div>
             <span>Monitoramento Online</span>
@@ -31,7 +31,7 @@ export function Reasons() {
           </div>
         </div>
 
-        <div className={styles.reason}>
+        <div className={`${styles.reason} ${styles.r3}`}>
           <h1>3</h1>
           <div>
             <span>Setup Instantâneo</span>
@@ -42,7 +42,7 @@ export function Reasons() {
           </div>
         </div>
 
-        <div className={styles.reason}>
+        <div className={`${styles.reason} ${styles.r4}`}>
           <h1>4</h1>
           <div>
             <span>CMMS Integrado</span>

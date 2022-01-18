@@ -37,6 +37,9 @@
     border-radius: 15px;
 
     max-width: 722px;
+    @media screen and (max-width: 765px){
+      position: relative;
+    }
 
     h1 {
       padding: 0 1rem;
@@ -60,5 +63,21 @@
         color: var(--dark-blue);
       }
     }
+  }
+
+  .r1 {
+    left: 10%;
+  }
+
+  .r2 {
+    left: 40%;
+  }
+
+  .r3 {
+    right: 40%;
+  }
+
+  .r4 {
+    right: 10%;
   }
 }
