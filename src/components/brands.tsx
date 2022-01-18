@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 //Styles
 import styles from "../styles/brands.module.scss";
@@ -8,24 +8,24 @@ export function Brands() {
   return (
     <main className={styles.main}>
       <h1>Marcas que confiam no nosso trabalho</h1>
-      <div className="brands">
-        <a href="#">
-          <img src="brands/ahlstrommunksjo.svg" alt="ahlstrommunksjo" />
+      <div className={styles.brands}>
+        <a href="ahlstrommunksjo">
+          <img src="brands/imgBrand1.svg" alt="ahlstrommunksjo" />
         </a>
-        <a href="#">
-          <img src="brands/amstedmaxion.svg" alt="amstedmaxion" />
+        <a href="amstedmaxion">
+          <img src="brands/imgBrand2.svg" alt="amstedmaxion" />
         </a>
-        <a href="#">
-          <img src="brands/corteva.svg" alt="corteva" />
+        <a href="corteva">
+          <img src="brands/imgBrand3.svg" alt="corteva" />
         </a>
-        <a href="#">
-          <img src="brands/embraer.svg" alt="embraer" />
+        <a href="embraer">
+          <img src="brands/imgBrand4.svg" alt="embraer" />
         </a>
-        <a href="#">
-          <img src="brands/master.svg" alt="master" />
+        <a href="master">
+          <img src="brands/imgBrand5.svg" alt="master" />
         </a>
-        <a href="#">
-          <img src="brands/yara.svg" alt="yara" />
+        <a href="yara">
+          <img src="brands/imgBrand6.svg" alt="yara" />
         </a>
       </div>
     </main>
