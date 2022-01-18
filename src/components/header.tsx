@@ -6,7 +6,7 @@ import styles from "../styles/header.module.scss";
 //Component Header
 export function Header() {
   return (
-    <header>
+    <div className={styles.header}>
       <div className={styles.logo}>
         <img src="logo.svg" alt="Tractian" />
       </div>
@@ -17,13 +17,13 @@ export function Header() {
       </div>
       <nav>
         <a href="about">Sobre nós</a>
-        <a href="#">Produtos</a>
-        <a href="#">Blog</a>
-        <a href="#">Área do cliente</a>
+        <a href="products">Produtos</a>
+        <a href="blog">Blog</a>
+        <a href="clientarea">Área do cliente</a>
       </nav>
       <div className={styles.btnDemo}>
         <button>Agende sua demo</button>
       </div>
-    </header>
+    </div>
   );
 }
