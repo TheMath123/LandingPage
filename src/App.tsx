@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
 //Components
 import { Brands } from "./components/brands";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { Reasons } from "./components/reasons";
 
 //Styles
 import styles from "./styles/app.module.scss";
@@ -15,6 +16,7 @@ export default function App() {
       <Header />
       <Hero />
       <Brands />
+      <Reasons />
     </div>
   );
 }
