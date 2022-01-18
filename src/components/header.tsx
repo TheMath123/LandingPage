@@ -16,7 +16,7 @@ export function Header() {
         <div className={styles.menuBar} />
       </div>
       <nav>
-        <a href="#">Sobre nós</a>
+        <a href="about">Sobre nós</a>
         <a href="#">Produtos</a>
         <a href="#">Blog</a>
         <a href="#">Área do cliente</a>
