@@ -1,5 +1,9 @@
+import React from 'react';
+
+//Styles
 import styles from "../styles/header.module.scss";
 
+//Component Header
 export function Header() {
   return (
     <header>

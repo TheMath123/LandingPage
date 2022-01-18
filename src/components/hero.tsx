@@ -1,3 +1,5 @@
+import React from 'react';
+
 //Styles
 import styles from "../styles/hero.module.scss";
 

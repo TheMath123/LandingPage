@@ -1,3 +1,5 @@
+import React from 'react';
+
 //Components
 import { Brands } from "./components/brands";
 import { Header } from "./components/header";
