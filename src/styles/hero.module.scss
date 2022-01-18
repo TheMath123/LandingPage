@@ -12,6 +12,10 @@ main {
   @media screen and (max-width: 920px) {
     display: flex;
   }
+
+  @media screen and (max-width: 760px) {
+    padding: 2rem;
+  }
 }
 
 .sideLeft {

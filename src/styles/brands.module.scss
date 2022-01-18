@@ -5,6 +5,10 @@
   background: var(--light-gray);
   padding: 4rem;
   height: 100%;
+
+  @media screen and (max-width: 765px) {
+    padding: 2rem;
+  }
   
   h1{
     font-family: Roboto;
@@ -21,7 +25,7 @@
     flex-wrap: wrap;
     gap: 4rem;
 
-    height: 500px;
+    width: 80vw;
     margin-right: 3rem;
 
     a {
