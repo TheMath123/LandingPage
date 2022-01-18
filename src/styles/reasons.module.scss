@@ -3,7 +3,8 @@
   flex-direction: column;
   padding: 2rem;
   background: var(--light-gray);
-  
+  gap: 1rem;
+
   h1 {
     font-family: Roboto;
     font-style: normal;
@@ -13,6 +14,51 @@
 
     strong {
       font-style: bold;
+    }
+  }
+}
+
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+
+  .reason {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    padding: 1rem;
+    border: 2px solid var(--blue);
+    border-radius: 15px;
+
+    max-width: 722px;
+
+    h1 {
+      padding: 0 1rem;
+      font-family: Roboto;
+      font-size: 6rem;
+      color: var(--blue);
+    }
+
+    div {
+      font-family: Roboto;
+      font-style: normal;
+
+      span {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: var(--dark-blue);
+      }
+
+      p{
+        font-size: 1rem;
+        color: var(--dark-blue);
+      }
     }
   }
 }
