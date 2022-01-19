@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height: 500px;
 }
 
 //Caixa cartões
@@ -33,11 +34,18 @@
   }
 }
 
+@media only screen and (max-width: 920px){
+  .sides{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 //Banners
 .left {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 
   width: 50%;
   background: var(--dark-blue);
@@ -52,8 +60,8 @@
 
 .right {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 
   width: 50%;
   background: var(--blue);
@@ -77,8 +85,6 @@
   align-items: center;
   padding: 0 2rem;
   gap: 1rem;
-
-  width: 100%;
 
   color: var(--white);
 
