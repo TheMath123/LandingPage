@@ -1,8 +1,10 @@
+import React from 'react';
+
 //Styles
 import styles from '../styles/contact.module.scss';
 
 //Page contact
-export function contact(){
+export function Contact(){
   return(
     <div className={styles.app}>
       <h1>Resolva todas seus problemas de manutenção, possuindo tudo na palma da sua mão.</h1>

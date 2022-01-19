@@ -5,6 +5,7 @@ import { Header } from "./components/header";
 import { Hero } from "./pages/hero";
 import { Products } from "./pages/products";
 import { Reasons } from "./pages/reasons";
+import { Contact } from "./pages/contact";
 import { Footer } from "./components/footer";
 
 //Styles
@@ -19,6 +20,7 @@ export default function App() {
       <Brands />
       <Reasons />
       <Products />
+      <Contact />
       <Footer />
     </div>
   );
