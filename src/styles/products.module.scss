@@ -41,7 +41,7 @@
   clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
   background: var(--dark-blue);
 
-  transition: clip-path .5s;
+  transition: all .5s;
 
   &:hover {
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
@@ -59,10 +59,10 @@
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
   background: var(--blue);
 
-  transition: clip-path .5s;
+  transition: all .5s;
 
   &:hover {
-    clip-path: none;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     z-index: 999;
     width: 90%;
   }
@@ -75,11 +75,11 @@
 .itens {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   padding: 0 2rem;
   gap: 1rem;
-  width: 100%;
+
+  width: 700px;
 
   color: var(--white);
 
@@ -99,7 +99,7 @@
   }
 
   img{
-    height: 80%;
+    height: 50%;
   }
 }
 

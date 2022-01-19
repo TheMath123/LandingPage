@@ -1,11 +1,11 @@
 import React from "react";
 
 //Components
-import { Brands } from "./components/brands";
+import { Brands } from "./pages/brands";
 import { Header } from "./components/header";
-import { Hero } from "./components/hero";
-import { Products } from "./components/products";
-import { Reasons } from "./components/reasons";
+import { Hero } from "./pages/hero";
+import { Products } from "./pages/products";
+import { Reasons } from "./pages/reasons";
 
 //Styles
 import styles from "./styles/app.module.scss";

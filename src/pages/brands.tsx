@@ -3,7 +3,7 @@ import React from "react";
 //Styles
 import styles from "../styles/brands.module.scss";
 
-//Component Brand Trust
+//Page Brand Trust
 export function Brands() {
   return (
     <div className={styles.app}>
