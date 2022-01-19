@@ -1,0 +1,135 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem 0;
+
+  .title {
+    padding: 3rem;
+    color: var(--deep-blue);
+  }
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+}
+
+//Caixa cartões
+.sides {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  color: var(--white);
+
+  h1 {
+    padding: 0;
+    color: var(--white);
+  }
+
+  img {
+    height: 80%;
+  }
+}
+
+.left {
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  transform: translateX(5.35rem);
+  width: 700px;
+  clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background: var(--dark-blue);
+
+  transition: clip-path .5s;
+
+  &:hover {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: 999;
+    width: 90%;
+  }
+}
+
+.right {
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  transform: translateX(-5.35rem);
+  width: 700px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: var(--blue);
+
+  transition: clip-path .5s;
+
+  &:hover {
+    clip-path: none;
+    z-index: 999;
+    width: 90%;
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.itens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1rem;
+  width: 100%;
+
+  color: var(--white);
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: all .6s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  img{
+    height: 80%;
+  }
+}
+
+//Colors
+.darkBlue {
+  background: var(--dark-blue);
+}
+.blue {
+  background: var(--blue);
+}
+
+.btnDemo {
+  background: var(--green);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+  padding: 1rem 2rem;
+
+  transition: all .5s;
+  cursor: pointer;
+
+  img{
+    width: 100%;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+}

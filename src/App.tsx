@@ -4,6 +4,7 @@ import React from "react";
 import { Brands } from "./components/brands";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { Products } from "./components/products";
 import { Reasons } from "./components/reasons";
 
 //Styles
@@ -17,6 +18,7 @@ export default function App() {
       <Hero />
       <Brands />
       <Reasons />
+      <Products />
     </div>
   );
 }
