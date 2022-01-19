@@ -8,12 +8,13 @@ export function Products(){
   const [sideRight, setSideRight] = useState(false);
   const [sideLeft, setSideLeft] = useState(false);
 
+
   return(
     <div className={styles.app}>
       <h1 className={styles.title}>Nossos serviços</h1>
       <div className={styles.box}>
         <div 
-          className={`${false&&styles.none} ${styles.left} ${styles.sides}`}
+          className={`${sideLeft&&styles.none} ${styles.left} ${styles.sides}`}
           onMouseEnter={() => setSideLeft(true)}
           onMouseLeave={() => setSideLeft(false)}
         >
@@ -36,7 +37,7 @@ export function Products(){
         
         
         <div 
-          className={`${false&&styles.none} ${styles.right} ${styles.sides}`} 
+          className={`${sideRight&&styles.none} ${styles.right} ${styles.sides}`} 
           onMouseEnter={() => setSideRight(true)}
           onMouseLeave={() => setSideRight(false)}
         >
