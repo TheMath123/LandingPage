@@ -13,12 +13,13 @@
 .box{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 //Caixa cartões
 .sides {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 2rem 4rem;
   color: var(--white);
 
@@ -32,39 +33,36 @@
   }
 }
 
+//Banners
 .left {
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 
-  transform: translateX(5.35rem);
-  width: 700px;
-  clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+  width: 50%;
   background: var(--dark-blue);
 
-  transition: all .5s;
+  transition: all .3s;
 
   &:hover {
-    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
     z-index: 999;
-    width: 90%;
+    width: 100%;
   }
 }
 
 .right {
+  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 
-  transform: translateX(-5.35rem);
-  width: 700px;
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  width: 50%;
   background: var(--blue);
 
-  transition: all .5s;
+  transition: all .3s;
 
   &:hover {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     z-index: 999;
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -75,13 +73,18 @@
 .itens {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 0 2rem;
   gap: 1rem;
 
-  width: 700px;
+  width: 100%;
 
   color: var(--white);
+
+  transition: all .6s;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
   h1 {
     margin-bottom: 1rem;
@@ -111,6 +114,8 @@
   background: var(--blue);
 }
 
+
+//Button Demo
 .btnDemo {
   background: var(--green);
 
@@ -131,5 +136,34 @@
   &:hover {
     transform: scale(1.1);
     filter: brightness(1.1);
+  }
+}
+
+
+//animate
+.fadeIn {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation-play-state: paused;
+}
+
+.startAnimate {
+  animation-play-state: running !important;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -46,10 +46,10 @@ export function Footer(){
         <span>Feito com <img src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png?v8" alt="amor"/> por <a href="https://github.com/themath123" target={'_blank'}>Matheus</a>.</span>
         <span>© Tractian Tecnologia Ltda - CNPJ: 35.755.699/0001-84</span>
         <div className={styles.socialsmedia}>
-          <a href="https://www.facebook.com/tractian"><img src="facebook.png" alt="Facebook" /></a>
-          <a href="https://www.instagram.com/tractian/"><img src="instagram.png" alt="Instagram" /></a>
-          <a href="https://www.linkedin.com/company/tractian/"><img src="linkedin.png" alt="Linkedin" /></a>
-          <a href="https://www.youtube.com/c/TRACTIAN"><img src="youtube.png" alt="Youtube" /></a>
+          <a href="https://www.facebook.com/tractian" target={'_blank'}><img src="facebook.png" alt="Facebook" /></a>
+          <a href="https://www.instagram.com/tractian/" target={'_blank'}><img src="instagram.png" alt="Instagram" /></a>
+          <a href="https://www.linkedin.com/company/tractian/" target={'_blank'}><img src="linkedin.png" alt="Linkedin" /></a>
+          <a href="https://www.youtube.com/c/TRACTIAN" target={'_blank'}><img src="youtube.png" alt="Youtube" /></a>
         </div>
       </div>
     </div>

@@ -98,6 +98,9 @@
   @media screen and (max-width: 920px) {
     .r1, .r2, .r3, .r4 {
       transform: none;
+      &:hover{
+        transform: scale3d(1.1, 1.1, .3);
+      }
     }
   }
   
