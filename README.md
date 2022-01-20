@@ -1,7 +1,7 @@
 # 🔧 Landing Page TRACTIAN
 Projeto feito para processo seletivo da Tractian, redesign da landingpage da mesma.
 
-#### 🚀 Aplicação em funcionamento
+### 🚀 Aplicação em funcionamento
 [Clique aqui para acessar](https://landingpage-tractian.vercel.app/)
 
 ### 🧰 Tecnologias utilizadas
