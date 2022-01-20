@@ -8,7 +8,7 @@ Projeto feito para processo seletivo da Tractian, redesign da landingpage da mes
 - React com Typescript
 - SASS
 
-### Recurso
+### 💎 Recurso
 - Técnicas de UX.
 - Responsividade de 95% em dispositivos smartphones.
 - Responsividade de 100% em computadores e tablets.
