@@ -9,6 +9,16 @@
 
   gap: 1rem;
 
+  .box {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    img {
+      height: 300px;
+    }
+  }
+
   form{
     display: flex;
     flex-direction: column;
