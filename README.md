@@ -3,7 +3,7 @@ Projeto feito para processo seletivo da Tractian, redesign da landingpage da mes
 
 
 ### 🚀 Aplicação em funcionamento
-[Clique aqui para acessar](https://landingpage-tractian.vercel.app/)
+[Clique aqui para acessar]() - No momento demo offline
 
 
 ### 🧰 Tecnologias utilizadas
